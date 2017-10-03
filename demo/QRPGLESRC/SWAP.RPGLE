@@ -1,13 +1,14 @@
 000100161027     h dftactgrp(*NO) bnddir('QC2LE')
-000101161027     d ProgStatus     sds
-000102161027     d  Parms            *PARMS
-000103161027     d  ProgName         *PROC
-000104161027     d  ErrMsgID              40     46
-000105161027     d  ErrMsg                91    169
-000106161027     d  JobName              244    253
-000107161027     d  UserId               254    263
-000108170309-->  d  JOBNUMBER            264    269
-000109161027
+000101171002       / foo /
+000102161027     d ProgStatus     sds
+000103161027     d  Parms            *PARMS
+000104161027     d  ProgName         *PROC
+000105161027     d  ErrMsgID              40     46
+000106161027     d  ErrMsg                91    169
+000107161027     d  JobName              244    253
+000108161027     d  UserId               254    263
+000109170309-->  d  JOBNUMBER            264    269
+000110161027
 000112161027     d GetUserProfile  PR                  ExtPgm('QSYGETPH')
 000113161027     d  $userID                      10A   const
 000114161027     d  $password                    10A   const
